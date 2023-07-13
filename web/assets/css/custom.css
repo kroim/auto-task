@@ -1,0 +1,106 @@
+.content{
+    width: 100%;
+    height: calc(50vw);
+    min-height: 600px;
+    background: rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 5px;
+}
+.billing{
+    padding: 20px 20px;
+    color: green;
+}
+.billing-rows{
+    padding: 10px 1px;
+}
+.billing-cols{
+    padding-bottom: 3px;
+    border-bottom: solid 1px rgba(255, 69, 0, 0.64);
+}
+.billing-cols ::placeholder{
+    color: rgba(0, 128, 0, 0.51);
+}
+.billing-rows span{
+    font-size: 20px;
+}
+.billing input[type='text'], input[type='email'], input[type='password']{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+#task th{
+    text-align: center;
+    font-size: medium;
+}
+#task td{
+    text-align: center;
+}
+
+button[type='button']:focus{
+    outline: none;
+}
+.input-group-addon{
+    border: none;
+    padding: 0;
+    color: green;
+}
+#billing-expiry-date1{
+    color: green;
+    box-shadow: none;
+}
+.billing-detail span{
+    width: 25px;
+}
+.billing-detail input{
+    width: calc(100% - 35px);
+}
+
+/* Toggle Switch Buttons */
+.autotak-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.autotak-switch input {display:none;}
+
+.autotak-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.autotak-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .autotak-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .autotak-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .autotak-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
