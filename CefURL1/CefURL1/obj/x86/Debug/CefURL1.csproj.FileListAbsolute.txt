@@ -1,0 +1,15 @@
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefURL1.exe.config
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefURL1.exe
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefURL1.pdb
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.Core.dll
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.dll
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.WinForms.dll
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.WinForms.xml
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.xml
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\bin\x86\Debug\CefSharp.Core.xml
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.csprojResolveAssemblyReference.cache
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.Form1.resources
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.Properties.Resources.resources
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.csproj.GenerateResource.Cache
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.exe
+A:\project_2018\06\06_autoShipping\work\2015\CefURL1\CefURL1\obj\x86\Debug\CefURL1.pdb
