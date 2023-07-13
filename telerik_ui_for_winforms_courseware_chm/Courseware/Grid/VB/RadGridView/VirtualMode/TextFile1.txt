@@ -1,0 +1,40 @@
+﻿Private Sub RadGridViewLab8_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
+  Me.contactTableAdapter.Fill(Me.adventureWorksDataSet.Contact)
+
+  ' set grid properties
+  radGridView1.MasterTemplate.AllowAddNewRow = False
+  radGridView1.MasterTemplate.AllowCellContextMenu = False
+  radGridView1.MasterTemplate.AllowDeleteRow = False
+  radGridView1.MasterTemplate.AllowEditRow = False
+  radGridView1.EnableSorting = False
+  radGridView1.EnableFiltering = False
+  radGridView1.EnableGrouping = False
+
+  ' initialize ContactTable
+  For i As Integer = 0 To NumberOfRows - 1
+    Dim list As List(Of String) = New List(Of String)(New String() {String.Empty, String.Empty, String.Empty, String.Empty})
+    ContactTable.Add(list)
+  Next i
+
+  ' hook up event handler that responds when the control is notified of an update
+  AddHandler radGridView1.CellValueNeeded, AddressOf radGridView1_CellValueNeeded
+
+  ' initial load of the ContactTable
+  RefreshContactData()
+
+  ' configure the grid to use virtual mode, set the number of columns and rows, set
+  ' the column heading text 
+  radGridView1.VirtualMode = True
+  radGridView1.ColumnCount = NumberOfCols
+  radGridView1.Columns(0).HeaderText = "First Name"
+  radGridView1.Columns(1).HeaderText = "Last Name"
+  radGridView1.Columns(2).HeaderText = "Email"
+  radGridView1.Columns(3).HeaderText = "Phone Number"
+  radGridView1.RowCount = NumberOfRows
+
+  ' auto size the columns
+  radGridView1.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill
+
+  ' trigger the timer
+  timer1.Start()
+End Sub

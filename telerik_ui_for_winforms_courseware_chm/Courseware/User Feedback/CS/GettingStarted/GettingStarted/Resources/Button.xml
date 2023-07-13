@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlTheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ThemeName="Office2007Silver">
+  <BuilderRegistrations>
+    <XmlStyleBuilderRegistration BuilderType="Telerik.WinControls.DefaultStyleBuilder">
+      <BuilderData xsi:type="XmlStyleSheet">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="235, 240, 245" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="236, 240, 245" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="203, 210, 219" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.4536741" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="240, 244, 249" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.450479239" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|2" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadButtonElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="255, 251, 231" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="255, 223, 140" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="247, 195, 49" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="255, 233, 176" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.453258783" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.455207676" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                    <Setting Property="Telerik.WinControls.UI.RadButtonItem.IsPressed" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="115, 146, 189" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonBorder" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="198, 170, 99" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonBorder">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="76, 83, 92" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.TextPrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="66, 69, 66" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.TextPrimitive">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.PositionOffset" Value="1, 1" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.TextPrimitive">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.RadButtonItem.IsPressed" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.453258783" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.455207676" />
+              <XmlAnimatedPropertySetting EndValue="255, 242, 231" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="255, 184, 74" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="254, 162, 0" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="255, 204, 124" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" AutoUnapply="False">
+                <Condition xsi:type="XmlComplexCondition">
+                  <Condition1 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                  </Condition1>
+                  <Condition2 xsi:type="XmlSimpleCondition">
+                    <Setting Property="Telerik.WinControls.UI.RadButtonItem.IsPressed" Value="True" />
+                  </Condition2>
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlAnimatedPropertySetting EndValue="235, 240, 245" Property="Telerik.WinControls.VisualElement.BackColor" />
+              <XmlAnimatedPropertySetting EndValue="236, 240, 245" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" />
+              <XmlAnimatedPropertySetting EndValue="203, 210, 219" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" />
+              <XmlAnimatedPropertySetting EndValue="240, 244, 249" Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ButtonFill" AutoUnapply="False">
+                <Condition xsi:type="XmlSimpleCondition" UnaryOperator="NotOperator">
+                  <Setting Property="Telerik.WinControls.VisualElement.IsMouseOver" Value="True" />
+                </Condition>
+              </XmlClassSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.PositionOffset" Value="1, 1" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.ImagePrimitive">
+                <Condition xsi:type="XmlSimpleCondition">
+                  <Setting Property="Telerik.WinControls.UI.RadButtonItem.IsPressed" Value="True" />
+                </Condition>
+              </XmlTypeSelector>
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Layouts.ImageAndTextLayoutPanel" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings />
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.RootRadElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation ControlType="Telerik.WinControls.UI.RadButton" ElementType="Telerik.WinControls.RootRadElement" ControlName="" ElementName="" />
+        <RadStylesheetRelation ElementType="Telerik.WinControls.UI.RadButtonElement" RegistrationType="ElementTypeDefault" ElementName="" ControlName="" ControlType="" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+  </BuilderRegistrations>
+</XmlTheme>

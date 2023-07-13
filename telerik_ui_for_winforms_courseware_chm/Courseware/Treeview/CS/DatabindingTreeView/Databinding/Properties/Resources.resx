@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Folder_Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder_Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3.5_Disk_Drive" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.5_Disk_Drive.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WeatherStations" xml:space="preserve">
+    <value>Honiara / Henderson, Solomon Islands
+Santa Cruz, Solomon Islands
+Munda, Solomon Islands
+Nauru Airport, Nauru
+Madang, Papua New Guinea
+Manus Island/Momote, Papua New Guinea
+Moresby, Papua New Guinea
+Wewak, Papua New Guinea
+Tasiilaq, Greenland
+Angisoq, Greenland
+Aputiteeq, Greenland
+Narsarsuaq, Greenland
+Constable Pynt, Greenland
+Daneborg, Greenland
+Danmarkshavn, Greenland
+Egedesminde, Greenland
+Frederikshaab, Greenland
+Groennedal, Greenland
+Godthaab / Nuuk, Greenland
+Holsteinsborg, Greenland
+Julianehaab, Greenland
+Jacobshavn Lufthavn, Greenland
+Kulusuk Lufthavn, Greenland
+Cape Tobin Automated Reporting Station , Greenland
+Prins Christian Sund, Greenland
+Scoresbysund, Greenland
+Sdr Stroemfjord, Greenland
+Thule A. B., Greenland
+Akureyri, Iceland
+Egilsstadir, Iceland
+Grimsey, Iceland
+Akurnes, Iceland
+Keflavikurflugvollur, Iceland
+Raufarhofn, Iceland
+Reykjavik, Iceland
+Stykkisholmur, Iceland
+Vestmannaeyjar, Iceland
+Skjaldthingsstadir, Iceland
+Biloxi, Keesler Air Force Base, Navu, United States
+Biloxi, Keesler Air Force Base, Navu, United States
+Biloxi, Keesler Air Force Base, Navu, United States
+Camp Canargus, Haiti
+Nitinat Lake Meteorological Aeronautical Presentation System , Canada
+Cape Mudge Light House , Canada
+Whistler , Canada
+Ile Rouge Meteorological Aeronautical Presentation System , Canada
+La Scie, Nfld., Canada
+Amherst, N. S., Canada
+Erieau Meteorological Aeronautical Presentation System , Canada
+Amphitrite Point, Canada
+Coronach Spc, Canada
+Argentia, Nfld, Canada
+Pam Rocks, Canada
+Dryad Point Light House , Canada
+Sundre, Canada
+St. Anthony, Nfld., Canada
+Banff, Alta., Canada
+Killarney Meteorological Aeronautical Presentation System , Canada
+Burgeo Automated Reporting Station , Canada
+Big Creek , Canada
+Britt, Ont., Canada
+Inner Whalebacks, Canada
+Caribou Point Meteorological Aeronautical Presentation System , Canada
+Bachelors Island Automated Reporting Station , Canada
+Beaverlodge, Canada
+Brooks Automatic Weather Reporting System , Canada
+B, R, Canada
+Longue Point De Mingan, Que., Canada
+Beaven Island, N. S., Canada
+Port Menier, Que., Canada
+St Anicet, Canada
+Cartwright, Nfld., Canada
+Nanakwa Shoals, Canada
+Saskatoon Kernen, Canada
+Berens River CS , Man., Canada
+Atikokan Automated Reporting Station , Canada
+Caribou Island, Ont., Canada
+Pukaskwa , Canada
+Clinton, B. C., Canada
+Carberry Mcdc, Canada
+Malloch Dome Automatic Weather Reporting System , Canada
+Collingwood Automatic Weather Reporting System , Canada
+Chatham Automatic Weather Reporting System , Canada
+Cote-Ste-Cath Mot, Canada
+Coronation Automated Reporting Station , Canada
+Barrie, Ont., Canada
+Nootka Lightstation, B. C., Canada
+Clut Lake Automated Reporting Station , Canada
+Addenbrooke Island Light, B. C., Canada
+Englee Meteorological Aeronautical Presentation System , Canada
+Burwash Automatic Weather Reporting System , Canada
+Uranium City, Sask., Canada
+Belle River, Ont., Canada
+Lac Benoit, Canada
+Oliphant \ Ont, Canada
+Daniel's Harbour, Nfld, Canada
+Badger, Nfld, Canada
+Regina University, Canada
+Claresholm Automatic Weather Reporting System , Canada
+Dease Lake B. C., Canada
+Chevery, Que., Canada
+Wasaga Beach Automatic Weather Reporting System , Canada
+Twillingate Meteorological Aeronautical Presentation System , Canada
+Manouane-Est Automated Reporting Station , Canada
+La Tuque, Canada
+St. Lawrence, Nfld., Canada
+Chute Des Passes, Canada
+Cop Upper, Canada
+Upsala, Ont., Canada
+Drumheller East, Canada
+Pinawa Automatic Weather Reporting System , Canada
+Estevan Point, B. C., Canada
+Welcome Island, Canada
+Chamouchouane Automatic Weather Reporting System, Canada
+Saint Paul Island Meteorological Aeronautical Presentation System , Canada
+Alberta Weather Centre , Canada
+Eastend Cypress, Sask, Canada
+Melita, Man, Canada
+Bow Drill Iii, Canada
+Grey Islet Meteorological Aeronautical Presentation System , Canada
+Entrance Island Automatic Weather Reporting System , Canada
+Egg Island Light, Canada
+Lac Eon, Que, Canada
+East Point, P. E. I, Canada
+Swan River, Man., Canada
+Ile D'Orleans Automated Reporting Station , Canada
+Cape Scott Light, Canada
+Egbert Meteorological Aeronautical Presentation System , Canada
+Eureka, N. W. T., Canada
+Ellice River Automated Reporting Station , Canada
+L'Assomption, Canada
+Saturna Island Meteorological Aeronautical Presentation System , Canada
+Cape Dyer, N. W. T., Canada
+Elk Island National Park, Canada
+Melfort Automatic Weather Reporting System , Canada
+Sartine Island Meteorological Aeronautical Presentation System , Canada
+St. Shotts, Canada
+Cardston Automated Reporting Station , Canada
+Fort Reliance , Canada
+Chatham Point Lighthouse , Canada
+Cree Lake Meteorological Aeronautical Presentation System , Canada
+Nain, Canada
+Frelighsburg, Canada
+Horsefly River, B. C., Canada
+Little Macatina, Canada
+Baie Comeau, Canada
+Colville Lake, Canada
+Conne River, Canada
+Fort Reliance, N. W. T., Canada
+Ballenas Island Automatic Weather Reporting System , Canada
+Goderich Automatic Weather Reporting System , Canada
+Garden River Automatic Weather Reporting System , Canada
+Grenadier Island , Canada
+Montreal River Radar Site, Canada
+Lagoon City , Canada
+Waterton Park Gate, Canada
+Gretna, Man., Canada
+Pemberton Automatic Weather Reporting System , Canada
+Roquemaure, Canada
+Iles-De-La-Madelein, Canada
+Sisters Island Automatic Weather Reporting System , Canada
+Gypsumville, Canada
+Carp Radar Site, Canada
+Sparwood Automatic Weather Reporting System , Canada
+Gillam, Man., Canada
+Esther 1, Canada
+Grise Fiord Airport, Canada
+Highvale, Canada
+Vancouver Automatic Weather Reporting System , Canada
+Ellerslie, Canada
+Hunters Point Mar, Canada
+Three Hills, Canada
+Holland Rock Automatic Weather Reporting System , Canada
+Varennes, Canada
+Jimmy Lake , Canada
+Hopedale Meteorological Aeronautical Presentation System , Canada
+Heath Point Meteorological Aeronautical Presentation System , Canada
+Deschambaults , Que., Canada
+Bernard Harbour, Canada
+Haines Junction, Canada
+Star Brook, Canada
+Beauceville, Canada
+Comfort Cove, Nfld., Canada
+Mont-Orford, Canada
+Saint Henri , Que., Canada
+Isachsen Meteorological Aeronautical Presentation System , Canada
+Fort Providence, Canada
+Indian River , Canada
+Quatsino Light Station , Canada
+Ile Aux Grues, Que., Canada
+Victoria Beach , Canada
+Lupin, N. W. T., Canada
+Broadview, Sask., Canada
+Hat Island, N. W. T., Canada
+Upsala Radar Site , Canada
+Iskut River , Canada
+Pointe Noire , Que., Canada
+Primrose Lake , Canada
+Victoria Marine , Canada
+Charlevoix CS , Que., Canada
+Saint Clothilde Automated Reporting Station , Canada
+Saint Gedeon, Que., Canada
+Watrous East Automated Reporting Station , Canada
+Mistook Automated Reporting Station , Canada
+St Leonard Automatic Weather Reporting System, Canada
+L'Acadie, Canada
+Jasper, Alta., Canada
+Ste Foy CS , Que., Canada
+Ennadai Lake Meteorological Aeronautical Presentation System , Canada
+Grand Rapids, Man., Canada
+Ivory Island Light, Canada
+Southend Automatic Weather Reporting System , Canada
+Assiniboia Airport Automated Reporting Station, Canada
+Upper Rideau Lake, Canada
+Herschel Island Automatic Weather Reporting System , Canada
+Jonquiere Automated Reporting Station , Canada
+Porter Lake, Canada
+Creston Automatic Weather Reporting System , Canada
+St Jovite Automatic Weather Reporting System , Canada
+Langara, B. C., Canada
+Vernon, B. C., Canada
+Jasper Warden Automated Reporting Station , Canada
+Leader Airport Automatic Weather Reporting System , Canada
+Yathkyed Lake Meteorological Aeronautical Presentation System , Canada
+Dubawnt Lake Meteorological Aeronautical Presentation System , Canada
+Bonnard 1, Que., Canada
+Pelly Bay, Canada
+Kejimkujik 1, N. S., Canada
+Malahat Automatic Weather Reporting System , Canada
+Kitimat, Canada
+Katatota Island, Canada
+Komakuk Beach, Y. T., Canada
+Rockglen, Sask., Canada
+King Radar Site, Canada
+Sikanni Chief, B. C., Canada
+Whiskey Automated Reporting Station , Canada
+Hope Slide, Canada
+Cape Kakkiviak, Canada
+Dease Lake Coastal Station, Canada
+Langara, B. C., Canada
+Lac La Biche, Alta., Canada
+Lucy Island, B. C., Canada
+Lucky Lake Automatic Weather Reporting System , Canada
+Lansdowne House , Canada
+Little Chicago, Canada
+Liverpool Bay, Canada
+Victoria Automatic Weather Reporting System , Canada
+Shilo, Canada
+Herbert Island Meteorological Aeronautical Presentation System , Canada
+Nipissing, Canada
+Mount Forest, Ont., Canada
+Alert, N. W. T., Canada
+Lauzon, Que., Canada
+Waskesiu Lake Automated Reporting Station , Canada
+Longstaff Bluff, N. W. T., Canada
+Lytton, B. C., Canada
+Candle Lake, Canada
+Masset A, Canada
+Mould Bay Camp, Canada
+Cathedral Point Meteorological Aeronautical Presentation System , Canada
+Mary's Harbour, Nfld., Canada
+Miscou Island, N. B., Canada
+Maniwaki, Canada
+P. Meadows Coastal Station Automatic Weather Reporting System, Canada
+Mcgill Radar Site, Canada
+Powder Lake, Canada
+Maplecreek Automatic Weather Reporting System , Canada
+Merry Island , Canada
+Mcinnes Island, B. C., Canada
+Lac La Martre, Canada
+Rampart River Automatic Weather Reporting System , Canada
+St Charles Creek, Canada
+Maniwaki, Que., Canada
+Mildred Lake, Canada
+Western Island Meteorological Aeronautical Presentation System , Canada
+S. E. Shoal Meteorological Aeronautical Presentation System , Canada
+Cobourg, Ont., Canada
+Pelly Island Automatic Weather Reporting System , Canada
+North Point, Prince Edward Island, Canada
+Riviere Du Loup, Que., Canada
+Nipterk Base, Canada
+Green Island Light Station - Heliport, B. C., Canada
+Carman U Of M, Canada
+Great Duck Island, Canada
+Nelson Automatic Weather Reporting System , Canada
+Satah River Automatic Weather Reporting System, Canada
+Nakusp Automatic Weather Reporting System , Canada
+Nicolet Automatic Weather Reporting System , Canada
+Nakiska Ridgetop , Canada
+Turtle Mountain, Canada
+Haldane River Automatic Weather Reporting System, Canada
+Nechako River , Canada
+Nagagami, Ont., Canada
+Camsell River, N. W. T., Canada
+Brevoort Island, Canada
+New Carlisle1, Canada
+Normandin, Canada
+Onefour Automatic Weather Reporting System , Canada
+Ste Agathe Des Mont, Canada
+Ivvavik Park Automatic Weather Reporting System, Canada
+Elbow Marine Aviation Reporting Station , Canada
+Sable Island Man , Canada
+Dawson Automatic Weather Reporting System , Canada
+Primrose Lake 2, Canada
+Wynyard Marine Aviation Reporting Station , Canada
+Henderickson Automatic Weather Reporting System, Canada
+Beausoleil Island Automated Reporting Station , Canada
+Port Colborne Automated Reporting Station , Canada
+Parc Des Laurentid, Canada
+Point Lepreau, N. B., Canada
+Esquimalt Harbour, B. C., Canada
+Inukjuak, Que, Canada
+Pine Island Meteorological Aeronautical Presentation System , Canada
+Point Escuminac Meteorological Aeronautical Presentation System , Canada
+Parent, Que., Canada
+Pickle Lake, Ont., Canada
+Pilot Mound, Man., Canada
+Montreal-Est, Canada
+Princeton Automatic Weather Reporting System , Canada
+Long Point Meteorological Aeronautical Presentation System , Canada
+Puntzi Mountain, B. C., Canada
+Cape Peel West, N. W. T., Canada
+Fort Chipewyan Automated Reporting Station , Canada
+Burns Lake CS , B. C., Canada
+Port Alberni, B. C., Canada
+Toronto Headland, Canada
+Rabbit Kettle Automated Reporting Station, Canada
+Valcartier, Canada
+Lennoxville, Canada
+Sedco 710, Canada
+Race Rocks Automatic Weather Reporting System , Canada
+Lethbridge Automated Reporting Station , Canada
+Cap Rouge, Canada
+Ile Bicquette, Que., Canada
+Point Petre , Ont., Canada
+Lacombe Cda, Canada
+Ile Aux Perroquets, Que., Canada
+Kindakun Rocks, B. C., Canada
+Puinte Claveau, Canada
+Cape Whittle, Canada
+Hanbury River Automated Reporting Station , Canada
+Quesnel Automatic Weather Reporting System , Canada
+Cape Race, Nfld, Canada
+Red Earth, Canada
+Pelly Bay 1, Canada
+Resolution Island, N. W. T., Canada
+Rosetown East, Sask, Canada
+Bancroft Automatic Weather Reporting System, Canada
+Rocky House Marine Aviation Reporting Station , Canada
+Hart Island Meteorological Aeronautical Presentation System , Canada
+Rose Spit Meteorological Aeronautical Presentation System , Canada
+Nicholson Peninsul , Canada
+Trois Rivieres, Canada
+Crowsnest, Canada
+Solander Island Meteorological Aeronautical Presentation System , Canada
+Camrose, Canada
+Fourchu Head Meteorological Aeronautical Presentation System , Canada
+Rowley Island, N. W. T., Canada
+Milk River, Canada
+Cap D'Espoir , Que., Canada
+Sable Island, N. S., Canada
+Summerside Automatic Weather Reporting System , Canada
+Edmonton Stony Plain Alta., Canada
+Cap Madeleine Meteorological Aeronautical Presentation System , Canada
+Cap Chat CS, Que., Canada
+Sousa Crk Avt , Canada
+Simcoe, Ont., Canada
+Squamish Airport, B. C, Canada
+Salmon Arm Automatic Weather Reporting System , Canada
+Exeter Radar Site, Canada
+Sheringham Automatic Weather Reporting System , Canada
+Aulvik National Park, Canada
+Spiritwood West, Sask, Canada
+St. Stephen, N. B., Canada
+La Pocatiere, Canada
+Blue River Marine Aviation Reporting Station , Canada
+Sparwood / Elk Valley, Canada
+Sachs Harbour, N. W. T., Canada
+Fisher Branch Marine Aviation Reporting Station , Canada
+Mc Tavish Automated Reporting Station , Canada
+Border, Que., Canada
+Ethelda Bay, Canada
+Robertson Lake Automated Reporting Station , Canada
+Trout Lake, Canada
+Beartooth Island, Canada
+Pointe-Des-Monts , Que., Canada
+Tetsa River, Canada
+Triple Island Light, B. C., Canada
+Cap Tourmente, Canada
+Toronto Aes Hq , Canada
+Tukialik Bay, Nfld., Canada
+Trois Rivieres, Canada
+Toronto Island, Canada
+Quebec Fcst Office, Canada
+Faro, Y. T., Canada
+Cape Hooper, N. W. T., Canada
+Truro, N. S., Canada
+Summerland Automatic Weather Reporting System , Canada
+Shoal Lake Airport Automated Reporting Station , Canada
+Mackar Inlet, Canada
+Dewar Lakes, N. W. T., Canada
+La Baie , Que., Canada
+Rouyn, Canada
+Bonavista, Nfld., Canada
+Bonilla Island Light, Canada
+Swift Current Automatic Weather Reporting System , Canada
+Broughton Island, Canada
+Valleyfield, Canada
+Sand Heads CS, B. C., Canada
+Storm Hills , N. W. T., Canada
+Vegreville Automatic Weather Reporting System , Canada
+Vernon, B. C., Canada
+Val Marie Southeast, Sask, Canada
+Vauxhall Cda, Canada
+Cypress Hills Park, Canada
+Ste Anne De Bell 1, Canada
+Buffalo Narrows, Sask., Canada
+Brier Island, N. S., Canada
+Vic. Hartland Automatic Weather Reporting System, Canada
+Villeroy Radar Site, Canada
+Ile Charron, Que., Canada
+W Vancouver Automatic Weather Reporting System , Canada
+Burlington Piers , Canada
+Collins Bay Automatic Weather Reporting System , Canada
+Western Head, N. S., Canada
+Weyburn Automatic Weather Reporting System , Canada
+White Rock Automatic Weather Reporting System , Canada
+Bonilla Island Meteorological Aeronautical Presentation System , Canada
+Grant Automatic Weather Reporting System , Canada
+Peawanuck Meteorological Aeronautical Presentation System , Canada
+Willow Creek, Canada
+Wasagaming, Man., Canada
+Muncho Lake, Canada
+George Island Meteorological Aeronautical Presentation System , Canada
+Ingenika Point, Canada
+Killinek Meteorological Aeronautical Presentation System , Canada
+Cove Island Meteorological Aeronautical Presentation System , Canada
+Port Weller, Ont., Canada
+Bow Valley, Canada
+Onatchiway, Que., Canada
+Holberg, B. C., Canada
+Ferolle Point Meteorological Aeronautical Presentation System , Canada
+Bull Arm Automatic Weather Reporting System, Canada
+Bow Island, Canada
+Helmcken Island Meteorological Aeronautical Presentation System , Canada
+Rowan Gorilla Iii, Canada
+Pangnirtung, Canada
+Croker River, N. W. T., Canada
+Back River Meteorological Aeronautical Presentation System , Canada
+Alexis River Meteorological Aeronautical Presentation System , Canada
+N. Bay Weather Office, Canada
+Outlook Pfra, Canada
+Charlottetown, Canada
+Rae Lakes, Canada
+Victoria University, Canada
+Cape Kiglapait, Nfld., Canada
+Yoho Park Automatic Weather Reporting System , Canada
+Cape Mercy, Canada
+Wynyard, Sask., Canada
+Osoyoos Automatic Weather Reporting System , Canada
+Agassiz Automated Reporting Station , Canada
+Port-Aux-Basques, Nfld., Canada
+Scudder Point Meteorological Aeronautical Presentation System , Canada
+Banff Marine Aviation Reporting Station , Canada
+Cumshewa Island Meteorological Aeronautical Presentation System , Canada
+Boat Bluff Light, Canada
+Sagona Island Meteorological Aeronautical Presentation System , Canada
+Kelp Reefs, B. C., Canada
+Grand Etang, N. S., Canada
+Amqui , Que., Canada
+Dauphin Coastal Station, Canada
+Virginia Falls, Canada
+Teslin Marine Aviation Reporting Station , Canada
+Saglek Bay , Canada
+Bratts Lake, Sask., Canada
+Beauport CS, Que., Canada
+Confederation Bridge, Prince Edward Island , Canada
+Cheticamp, N. S., Canada
+Carmacks CS, Y. T., Canada
+Deline , N. W. T., Canada
+Delhi CS, Ont., Canada
+Deerwood RCS , Man., Canada
+Edmonton Municipal CR10 , Alta., Canada
+Edmonton International CS , Alta., Canada
+Gimli Harbour CS, Man., Canada
+High Falls , Que., Canada
+Kentville , N. S., Canada
+Lower Carp Lake , N. W. T., Canada
+Lindberg Landing , N. W. T., Canada
+Morden CDA CS , Man., Canada
+McNabs Island , N. S., Canada
+Fort McMurray CS, Alta., Canada
+Malay Falls , N. S., Canada
+North Mountain , N. S., Canada
+La Ronge , Sask., Canada
+Prairie River, Alta, Canada
+Qavvik Lake, N. W. T., Canada
+Rocky Harbour CS, Nfld., Canada
+Shawinigan CS , Que., Canada
+Spirit River Auto Station, Alta, Canada</value>
+  </data>
+</root>

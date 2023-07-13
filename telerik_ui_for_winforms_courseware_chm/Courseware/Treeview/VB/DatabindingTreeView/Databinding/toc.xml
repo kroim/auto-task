@@ -1,0 +1,12 @@
+<toc>
+  <item>
+    <title>Main title</title>
+    <id>1</id>
+    <parentId></parentId>
+  </item>
+  <item>
+    <title>Child title</title>
+    <id>2</id>
+    <parentId>1</parentId>
+  </item>
+</toc>

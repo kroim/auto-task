@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlTheme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ThemeName="TelerikSilver">
+  <BuilderRegistrations>
+    <XmlStyleBuilderRegistration>
+      <BuilderData xsi:type="XmlStyleSheet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PropertySettingGroups>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="172, 172, 172" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="138, 138, 138" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="117, 117, 117" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="139, 139, 139" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.5429553" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.5601375" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.ProgressBarPrimitive.SeparatorColor1" Value="Black" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Padding" Value="0, 0, 0, 0" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Margin" Value="0, -2, 0, 0" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.ProgressBarPrimitive.Dash" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.ProgressBarPrimitive.StepWidth" Value="13" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.ProgressBarPrimitive.Hatch" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ProgressFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.SeparatorWidth" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.StepWidth" Value="13" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.SeparatorColor1" Value="239, 239, 239" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.SeparatorColor2" Value="White" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.Value1" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.Dash" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.UI.RadProgressBarItem.Value2" Value="0" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|3" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.UI.RadProgressBarElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="80, 80, 80" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor2" Value="78, 78, 78" />
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.CanFocus" Value="False" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage" Value="0.5068728" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientPercentage2" Value="0.5189003" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.NumberOfColors" Value="4" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientStyle" Value="Linear" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.GradientAngle" Value="90" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor3" Value="Black" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.FillPrimitive.BackColor4" Value="59, 59, 59" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ProgressBarFill" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="219, 219, 219" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.BoxStyle" Value="SingleBorder" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.BackColor" Value="219, 219, 219" />
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.BorderPrimitive.GradientStyle" Value="Solid" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.BorderPrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.RadElement.Shape" Value="Telerik.WinControls.RoundRectShape|5" />
+            </PropertySettings>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.RootRadElement" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <PropertySettings>
+              <XmlPropertySetting Property="Telerik.WinControls.Primitives.TextPrimitive.Text" Value="vvcxvcxcvx" />
+              <XmlPropertySetting Property="Telerik.WinControls.VisualElement.ForeColor" Value="White" />
+            </PropertySettings>
+            <Selectors>
+              <XmlClassSelector ElementClass="ProgressBarText" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+          <XmlPropertySettingGroup>
+            <Selectors>
+              <XmlTypeSelector ElementType="Telerik.WinControls.Primitives.ImagePrimitive" />
+            </Selectors>
+          </XmlPropertySettingGroup>
+        </PropertySettingGroups>
+      </BuilderData>
+      <StylesheetRelations>
+        <RadStylesheetRelation RegistrationType="ElementTypeDefault" ElementType="Telerik.WinControls.UI.RadProgressBarElement" />
+        <RadStylesheetRelation ControlType="Telerik.WinControls.UI.RadProgressBar" ElementType="Telerik.WinControls.RootRadElement" />
+      </StylesheetRelations>
+    </XmlStyleBuilderRegistration>
+  </BuilderRegistrations>
+</XmlTheme>
