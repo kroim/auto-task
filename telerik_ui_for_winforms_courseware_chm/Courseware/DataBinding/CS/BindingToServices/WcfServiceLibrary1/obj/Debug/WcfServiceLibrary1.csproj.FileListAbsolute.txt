@@ -1,0 +1,9 @@
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\Telerik.WinControls.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\Telerik.WinControls.UI.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\bin\Debug\TelerikCommon.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\DataBinding\CS\BindingToServices\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

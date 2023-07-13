@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AdventureWorks" Class="SalesOrderHeaderDataClassDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=AdventureWorks;Integrated Security=True" SettingsObjectName="Settings" SettingsPropertyName="AdventureWorksConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Sales.SalesOrderHeader" Member="SalesOrderHeaders">
+    <Type Name="SalesOrderHeader">
+      <Column Name="SalesOrderID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="SubTotal" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TaxAmt" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Freight" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TotalDue" Type="System.Decimal" DbType="Money NOT NULL" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

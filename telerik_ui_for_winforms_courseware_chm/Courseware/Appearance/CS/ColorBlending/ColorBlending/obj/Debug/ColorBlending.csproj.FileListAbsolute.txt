@@ -1,0 +1,16 @@
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\ColorBlending.exe.config
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\ColorBlending.exe
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\ColorBlending.pdb
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.GridView.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.RadDock.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.Themes.Desert.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.Themes.Office2007Silver.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\Telerik.WinControls.UI.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\bin\Debug\TelerikCommon.dll
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.csprojResolveAssemblyReference.cache
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.Properties.Resources.resources
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.RadForm1.resources
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.csproj.GenerateResource.Cache
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.exe
+A:\project_2018\06\06_autoShipping\work\telerik_ui_for_winforms_courseware_chm\Courseware\Appearance\CS\ColorBlending\ColorBlending\obj\Debug\ColorBlending.pdb
